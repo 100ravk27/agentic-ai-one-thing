@@ -1,6 +1,7 @@
 {
-  "name": "agentic-ai-one-thing",
+  "name": "agentic-ai-one-thing-hello",
   "version": "1.0.0",
+  "type": "module",
   "description": "Express Node.js server with 5 APIs",
   "main": "src/index.js",
   "scripts": {
@@ -8,6 +9,8 @@
     "dev": "node --watch src/index.js"
   },
   "dependencies": {
+    "@babel/parser": "^7.29.0",
+    "@babel/traverse": "^7.29.0",
     "express": "^4.21.0"
   }
 }

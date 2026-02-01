@@ -1,5 +1,5 @@
 {
-  "name": "agentic-ai-one-thing-hello",
+  "name": "agentic-ai-one-thing-hello-world",
   "version": "1.0.0",
   "type": "module",
   "description": "Express Node.js server with 5 APIs",

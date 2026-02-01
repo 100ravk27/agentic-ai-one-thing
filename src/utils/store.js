@@ -17,6 +17,7 @@ function persistTodo(todo) {
 
 function findTodoById(id) {
   const todo = todos.get(id);
+  console.log('findTodoById', id, todo);
   if (!todo) {
     throw new Error('Todo not found');
   }
